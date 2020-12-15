@@ -1,0 +1,99 @@
+body {
+  background-color: "rgb(255, 153, 153)";
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-left: 50px;
+}
+
+p {
+  color: black;
+  text-align: left;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+p.two {
+  border-style: solid;
+  border-width: medium;
+}
+p.one {
+  border-style: dotted;
+  border-width: medium;
+}
+
+.half_circle_0 {
+  width: 202px;
+  height: 99.5px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 11px solid red;
+  border-bottom: 0;
+  margin-left: 5.5px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.half_circle_1 {
+  width: 185px;
+  height: 89px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 10px solid orange;
+  border-bottom: 0;
+  margin-top: -88.5px;
+  margin-left: 15px;
+}
+
+.half_circle_2 {
+  width: 167px;
+  height: 80px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 10px solid yellow;
+  border-bottom: 0;
+  margin-top: -79px;
+  margin-left: 24px;
+}
+
+.half_circle_3 {
+  width: 148px;
+  height: 70px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 10px solid green;
+  border-bottom: 0;
+  margin-top: -70px;
+  margin-left: 33px;
+}
+
+.half_circle_4 {
+  width: 130px;
+  height: 60px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 10px solid blue;
+  border-bottom: 0;
+  margin-top: -60px;
+  margin-left: 42px;
+}
+
+.half_circle_5 {
+  width: 112px;
+  height: 50px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 10px solid purple;
+  border-bottom: 0;
+  margin-top: -50px;
+  margin-left: 51px;
+}
+
+#GOKKUSAGI {
+
+  display:flex; justify-content:center; align-items:flex-end;
+
+}
